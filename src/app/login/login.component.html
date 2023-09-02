@@ -1,0 +1,16 @@
+<br><br><h2 class="pageTitle">Login</h2>
+<form>
+    <div>
+        <mat-form-field  appearance="fill">
+            <mat-label >Username : </mat-label>
+            <input matInput [(ngModel)]="username" name="username" type="text" placeholder="Enter your username" required="" ><br><br>
+        </mat-form-field> 
+    </div>
+    <div>
+        <mat-form-field>
+            <mat-label>Password : </mat-label>
+            <input matInput [(ngModel)]="password" name="password" type="password" placeholder="Enter your password" required><br><br>
+        </mat-form-field> 
+    </div><br>
+<button mat-flat-button color="warn" (click)="login()">Login</button><br>
+</form>

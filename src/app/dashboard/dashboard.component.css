@@ -1,0 +1,47 @@
+.dbpage{
+    width: 30%;
+	padding: 3%;
+	font-weight: bold;
+	/*margin: 7.5%;*/
+    margin-left: 400px;
+	font-size: 15px;
+	box-shadow: 3px 3px 3px #ccc;
+	border: 0.5px solid #ccc;
+    text-align: center;
+	background-color: rgba(7, 236, 83, 0.961);
+}
+.input input{
+    margin-right: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgba(7, 236, 99, 0.961);
+}
+.input button{
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.mat-table{
+    width: 100%;
+    max-width: 600px;
+    box-shadow: none;
+}
+
+  .mat-column-position {
+    width: 32px;
+    border-right: 1px solid currentColor;
+    padding-left: 24px;
+    text-align: center;
+  }
+  
+  .mat-column-value {
+    font-style: italic;
+    text-align: center;
+  }
+  .mat-raised-button{
+    padding: 0;
+  }

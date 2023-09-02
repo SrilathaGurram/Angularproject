@@ -1,0 +1,25 @@
+form{
+    width: 30%;
+	padding: 3%;
+	padding-top: 20px;
+	font-weight: bold;
+	margin: 7%;
+	font-size: 15px;
+	margin-left: 425px ;
+	box-shadow: 3px 3px 3px #ccc;
+	border: 0.5px solid #ccc;
+    text-align: center;
+	background-color: rgba(7, 236, 114, 0.961);
+
+}
+h2.pageTitle{
+    text-align: center;
+	color: rgba(7, 236, 60, 0.961);
+
+}
+
+.mat-form-field{
+	width: 330px;
+	margin-bottom: 20px;
+	appearance: fill;
+}
